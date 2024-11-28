@@ -41,6 +41,7 @@ spec:
       containers:
       - name: netutils
         image: nikitamishagin/netutils:latest
+        command: ["/bin/sh", "-c", "sleep infinity"]
         # Uncomment below to run as a privileged pod
         # securityContext:
         #   privileged: true
