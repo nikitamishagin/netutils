@@ -10,6 +10,7 @@ RUN apt update && \
     iproute2 \
     iputils-ping \
     nmap \
+    tcpdump \
     telnet \
     traceroute \
     wget \
