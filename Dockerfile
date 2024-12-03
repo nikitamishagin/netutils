@@ -4,6 +4,7 @@ FROM ubuntu:noble
 # Installing netutils packages and clean apt cache
 RUN apt update && \
     apt install -y \
+    bash-completion \
     curl \
     dnsutils \
     iproute2 \
