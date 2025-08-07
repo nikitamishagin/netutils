@@ -1,17 +1,21 @@
-# Using the official Ubuntu 24.04 image as a base
-FROM ubuntu:noble
+# Using the official Alpine 3.22 image as a base
+FROM alpine:3.22
 
-# Installing netutils packages and clean apt cache
-RUN apt update && \
-    apt install -y \
+# Installing bash and netutils packages
+RUN apk update && \
+    apk add --no-cache \
+    bash \
     bash-completion \
+    bind-tools \
     curl \
-    dnsutils \
     iproute2 \
-    iputils-ping \
+    iputils \
     nmap \
     tcpdump \
-    telnet \
+    busybox-extras \
     traceroute \
-    wget \
-    && apt clean && rm -rf /var/lib/apt/lists/*
+    wget
+
+# Set entrypoint to bash for kubectl debug compatibility
+# This can be overridden at runtime if needed
+ENTRYPOINT ["/bin/bash"]
