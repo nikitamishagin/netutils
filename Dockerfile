@@ -14,6 +14,7 @@ RUN apk update && \
     tcpdump \
     busybox-extras \
     traceroute \
+    vim \
     wget
 
 # Set entrypoint to bash for kubectl debug compatibility

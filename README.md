@@ -1,7 +1,7 @@
 # Network Utilities Docker Image
 
-This project provides a Docker image based on Alpine 3.22 with a collection of essential network
-utilities. These tools are useful for network diagnostics, testing, and troubleshooting.
+This project provides a Docker image based on Alpine with a collection of essential network utilities. These tools are
+useful for network diagnostics, testing, and troubleshooting.
 
 ## Included Utilities
 
@@ -16,6 +16,7 @@ The Docker image includes the following packages:
 - **tcpdump**: Command-line packet analyzer.
 - **busybox-extras**: Additional utilities including `telnet`.
 - **traceroute**: Print the route packets take to a network host.
+- **vim**: Vi IMproved, a programmers text editor.
 - **wget**: Command-line utility for retrieving files from the web.
 
 ## Usage in Kubernetes
@@ -41,12 +42,12 @@ spec:
         app: netutils
     spec:
       containers:
-      - name: netutils
-        image: nikitamishagin/netutils:latest
-        command: ["/bin/bash", "-c", "sleep infinity"]
-        # Uncomment below to run as a privileged pod
-        # securityContext:
-        #   privileged: true
+        - name: netutils
+          image: nikitamishagin/netutils:latest
+          command: [ "/bin/bash", "-c", "sleep infinity" ]
+          # Uncomment below to run as a privileged pod
+          # securityContext:
+          #   privileged: true
       # Uncomment and modify nodeSelector below for specific node assignment
       # nodeSelector:
       #   kubernetes.io/hostname: specific-node
