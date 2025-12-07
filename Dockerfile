@@ -1,5 +1,5 @@
 # Using the official Alpine 3.22 image as a base
-FROM alpine:3.22
+FROM alpine:3.23
 
 # Installing bash and netutils packages
 RUN apk update && \
