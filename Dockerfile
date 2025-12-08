@@ -10,12 +10,14 @@ RUN apk update && \
     curl \
     iproute2 \
     iputils \
+    jq \
     nmap \
     tcpdump \
     busybox-extras \
     traceroute \
     vim \
-    wget
+    wget \
+    yq
 
 # Set entrypoint to bash for kubectl debug compatibility
 # This can be overridden at runtime if needed
