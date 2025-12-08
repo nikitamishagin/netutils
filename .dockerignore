@@ -1,4 +1,6 @@
 .gitignore
-.idea
-README.md
+.github/
+.idea/
+CONTRIBUTING.md
 LICENSE
+README.md
