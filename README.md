@@ -111,11 +111,6 @@ The image is configured with bash as the entrypoint for kubectl debug compatibil
 This project includes a GitHub Actions workflow configured to automatically build and push the Docker image to Docker
 Hub whenever a new tag is pushed to the repository. The image is tagged with both the specific Git tag and `latest`.
 
-## Contributing
-
-Contributions are welcome! If you have any suggestions for improvements or new features, feel free to open an issue or
-submit a pull request.
-
 ## License
 
 This project is licensed under the Apache License 2.0. See the [LICENSE](./LICENSE) file for details.
