@@ -9,13 +9,13 @@ The Docker image includes the following packages:
 
 - **bash**: GNU Bourne-Again SHell with bash-completion.
 - **bind-tools**: DNS utilities including `dig` and `nslookup`.
+- **busybox-extras**: Additional utilities including `telnet`.
 - **curl**: Command-line tool for transferring data with URLs, supporting various protocols.
 - **iproute2**: Collection of utilities for network management, including `ip`.
 - **iputils**: Tools to send ICMP ECHO_REQUEST to network hosts using `ping`.
 - **jq**: Lightweight and flexible command-line JSON processor for parsing and querying API responses.
 - **nmap**: Network exploration tool and security/port scanner.
 - **tcpdump**: Command-line packet analyzer.
-- **busybox-extras**: Additional utilities including `telnet`.
 - **traceroute**: Print the route packets take to a network host.
 - **vim**: Vi IMproved, a programmers text editor.
 - **wget**: Command-line utility for retrieving files from the web.

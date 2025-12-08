@@ -7,13 +7,13 @@ RUN apk update && \
     bash \
     bash-completion \
     bind-tools \
+    busybox-extras \
     curl \
     iproute2 \
     iputils \
     jq \
     nmap \
     tcpdump \
-    busybox-extras \
     traceroute \
     vim \
     wget \
