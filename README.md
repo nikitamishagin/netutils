@@ -3,6 +3,14 @@
 This project provides a Docker image based on Alpine with a collection of essential network utilities. These tools are
 useful for network diagnostics, testing, and troubleshooting.
 
+## Project Goals
+
+- Provide a convenient, ready-to-use image for in-cluster network diagnostics.
+- Keep the image lightweight while including essential tooling.
+- Offer a familiar Bash environment with autocompletion for productive interactive use.
+- Ensure compatibility with Kubernetes workflows (e.g., kubectl exec/debug).
+- Deliver an image tailored to **my own** requirements.
+
 ## Included Utilities
 
 The Docker image includes the following packages:
