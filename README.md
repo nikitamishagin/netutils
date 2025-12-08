@@ -8,6 +8,7 @@ useful for network diagnostics, testing, and troubleshooting.
 The Docker image includes the following packages:
 
 - **bash**: GNU Bourne-Again SHell with bash-completion.
+- **bash-completion**: Command-line tab completion and hints for Bash to improve interactive shell usability.
 - **bind-tools**: DNS utilities including `dig` and `nslookup`.
 - **busybox-extras**: Additional utilities including `telnet`.
 - **curl**: Command-line tool for transferring data with URLs, supporting various protocols.
