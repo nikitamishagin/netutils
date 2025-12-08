@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="netutils-logo.png" alt="Project logo" width="380">
+</div>
+
 # Network Utilities Docker Image
 
 This project provides a Docker image based on Alpine with a collection of essential network utilities. These tools are
