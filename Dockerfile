@@ -2,8 +2,7 @@
 FROM alpine:3.23
 
 # Installing bash and netutils packages
-RUN apk update && \
-    apk add --no-cache \
+RUN apk add --no-cache \
     bash \
     bash-completion \
     bind-tools \
