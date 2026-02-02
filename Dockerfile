@@ -12,6 +12,7 @@ RUN apk add --no-cache \
     iputils \
     jq \
     nmap \
+    openssl \
     tcpdump \
     traceroute \
     vim \

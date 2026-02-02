@@ -28,6 +28,7 @@ The Docker image includes the following packages:
 - **iputils**: Tools to send ICMP ECHO_REQUEST to network hosts using `ping`.
 - **jq**: Lightweight and flexible command-line JSON processor for parsing and querying API responses.
 - **nmap**: Network exploration tool and security/port scanner.
+- **openssl**: Toolkit for Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols.
 - **tcpdump**: Command-line packet analyzer.
 - **traceroute**: Print the route packets take to a network host.
 - **vim**: Vi IMproved, a programmers text editor.
