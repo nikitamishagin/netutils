@@ -1,5 +1,5 @@
-# Using the official Alpine 3.22 image as a base
-FROM alpine:3.23
+# Using the official Alpine image as a base
+FROM alpine:3.24
 
 # Installing bash and netutils packages
 RUN apk add --no-cache \
