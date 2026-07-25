@@ -31,7 +31,6 @@ The Docker image includes the following packages:
 - **openssl**: Toolkit for Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols.
 - **tcpdump**: Command-line packet analyzer.
 - **traceroute**: Print the route packets take to a network host.
-- **vim**: Vi IMproved, a programmers text editor.
 - **wget**: Command-line utility for retrieving files from the web.
 - **yq**: YAML processor with jq-like syntax, useful for parsing and modifying Kubernetes manifests and other YAML
   files.

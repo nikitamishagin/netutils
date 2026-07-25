@@ -15,7 +15,6 @@ RUN apk add --no-cache \
     openssl \
     tcpdump \
     traceroute \
-    vim \
     wget \
     yq
 
